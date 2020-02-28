@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Toggle from 'react-toggle'
 import '../assets/main.css'
 
 const DarkMode = () => {
@@ -17,9 +18,10 @@ const DarkMode = () => {
       <div className={darkTheme ? 'dark-theme': 'light-theme'}>
         <nav>
         <div className="button-container">
-          <button onClick={() => setDarkTheme(prevTheme => !prevTheme)}>
-          Toggle Theme
-          </button>
+				<Toggle
+            defaultChecked={darkTheme}
+            icons={false}
+            onChange={() => setDarkTheme(prevTheme => !prevTheme)}/>
           </div>
         </nav>
         <div className="content">
