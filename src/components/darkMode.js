@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import Toggle from 'react-toggle'
-import '../assets/main.css'
+
+import '../assets/css/main.css'
+import '../assets/css/toggle.css'
+import '../assets/css/dark-theme.css'
+import '../assets/css/light-theme.css'
+
 
 const DarkMode = () => {
     const [darkTheme, setDarkTheme] = useState(getDefaultTheme())
