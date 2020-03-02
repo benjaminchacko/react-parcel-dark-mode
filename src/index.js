@@ -1,4 +1,4 @@
-import React from "react";
+import React, {StrictMode} from "react";
 import { render } from "react-dom";
 
 import App from './app.js'
@@ -7,9 +7,9 @@ import App from './app.js'
 const rootElement = document.querySelector("#root");
 
 render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>,
+  </StrictMode>,
   rootElement
 );
 
