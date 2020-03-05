@@ -3,7 +3,7 @@
 
 This repository is a experiment implementing Dark Mode using React Hooks.
 
-Hosted @ [dark-mode-react.netlify.com](dark-mode-react.netlify.com)
+Hosted @ [dark-mode-react.netlify.com](https://dark-mode-react.netlify.com)
 
 ## Important Features:
 * Parcel Bundler
