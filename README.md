@@ -3,6 +3,8 @@
 
 This repository is a experiment implementing Dark Mode using React Hooks.
 
+Hosted @ [dark-mode-react.netlify.com](dark-mode-react.netlify.com)
+
 ## Important Features:
 * Parcel Bundler
 * Babel to use latest ES6 functions
