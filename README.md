@@ -1,9 +1,7 @@
-# React Parcel with Dark Mode in React Hooks
+# Dark Mode and Responsive React with Hooks
 ### Language(s): React JS
 
-This repository is a experiment implementing Dark Mode using React Hooks.
-
-Hosted @ [dark-mode-react.netlify.com](https://dark-mode-react.netlify.com)
+I have used React Hooks to implement Dark Mode and Responsiveness in React and deployed it at @ [dark-mode-react.netlify.com](https://dark-mode-react.netlify.com)
 
 Code Snippet: 
 
